@@ -15,20 +15,23 @@ interface Webhook {
 }
 
 const WEBHOOK_TOPICS = [
-  "stock.update",
-  "invoice.draft",
-  "invoice.update",
-  "invoice.cancel",
-  "invoice.collect",
-  "proforma.draft",
-  "proforma.update",
-  "proforma.cancel",
-  "notice.draft",
-  "notice.update",
-  "notice.cancel",
-  "tax_receipt.draft",
-  "tax_receipt.update",
-  "tax_receipt.cancel",
+  "stock",
+  "Invoice/SaveDraft",
+  "Proforma/SaveDraft",
+  "Notice/SaveDraft",
+  "Receipt/SaveDraft",
+  "TaxReceipt/SaveDraft",
+  "Invoice/Update",
+  "Proforma/Update",
+  "Notice/Update",
+  "Receipt/Update",
+  "Invoice/Cancel",
+  "Proforma/Cancel",
+  "Notice/Cancel",
+  "Receipt/Cancel",
+  "TaxReceipt/Cancel",
+  "Collect/Inserted",
+  "Card/Confirmed",
 ];
 
 export default function WebhooksPage() {
