@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="media/banner.png" alt="NGINX Monitor Stack Banner">
+</p>
+
 # Oblio Manager
 
 An open-source web interface for managing [Oblio](https://www.oblio.eu) API and webhooks. This application provides an intuitive UI to interact with the Oblio invoicing platform, manage webhooks, create documents, and handle E-Facturas through the SPV system.
